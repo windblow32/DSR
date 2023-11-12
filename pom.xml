@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>EntityMatching</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <lunece.version>4.10.2</lunece.version>
+    </properties>
+    <dependencies>
+        <!-- 开源中文分词器Ansj -->
+<!--        <dependency>-->
+<!--            <groupId>org.ansj</groupId>-->
+<!--            <artifactId>ansj_seg</artifactId>-->
+<!--            <version>5.1.6</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.json</groupId>-->
+<!--            <artifactId>json</artifactId>-->
+<!--            <version>20230227</version>-->
+<!--        </dependency>-->
+        <!-- HttpClinet 核心包 -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.hankcs/hanlp -->
+        <dependency>
+            <groupId>com.hankcs</groupId>
+            <artifactId>hanlp</artifactId>
+            <version>portable-1.8.4</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.huaban</groupId>-->
+<!--            <artifactId>jieba-analysis</artifactId>-->
+<!--            <version>1.0.2</version>-->
+<!--        </dependency>-->
+        <!-- Spark Core -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.12</artifactId>
+            <version>2.4.8</version> <!-- 根据你下载的Spark版本进行调整 -->
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.12</artifactId>
+            <version>2.4.8</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>4.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+        </dependency>
+        <!-- lucene核心库 -->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.lucene</groupId>-->
+<!--            <artifactId>lucene-core</artifactId>-->
+<!--            <version>8.9.0</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; Lucene的查询解析器 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.lucene</groupId>-->
+<!--            <artifactId>lucene-queryparser</artifactId>-->
+<!--            <version>8.9.0</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; lucene的默认分词器库 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.lucene</groupId>-->
+<!--            <artifactId>lucene-analyzers-common</artifactId>-->
+<!--            <version>8.9.0</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; lucene的高亮显示 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.lucene</groupId>-->
+<!--            <artifactId>lucene-highlighter</artifactId>-->
+<!--            <version>8.9.0</version>-->
+<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable -->
+        <dependency>
+            <groupId>nz.ac.waikato.cms.weka</groupId>
+            <artifactId>weka-stable</artifactId>
+            <version>3.8.6</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.medallia.word2vec/Word2VecJava -->
+        <dependency>
+            <groupId>com.medallia.word2vec</groupId>
+            <artifactId>Word2VecJava</artifactId>
+            <version>0.10.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.sourceforge.jdistlib/jdistlib -->
+        <dependency>
+            <groupId>net.sourceforge.jdistlib</groupId>
+            <artifactId>jdistlib</artifactId>
+            <version>0.4.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+
+
+</project>
